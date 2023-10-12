@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "389588150018",
+    "project_id": "vutfiq-s-crypto-wallet",
+    "storage_bucket": "vutfiq-s-crypto-wallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389588150018:android:950cf727a0e2daa1a9841b",
+        "android_client_info": {
+          "package_name": "com.b2inedutech.free_code_crypto_wallet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0ZbPcFV6UJBotiX8ni32W8EiCYpKcc-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
