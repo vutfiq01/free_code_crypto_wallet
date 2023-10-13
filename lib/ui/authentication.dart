@@ -26,7 +26,7 @@ class _AuthenticationState extends State<Authentication> {
         ),
         child: Padding(
           padding: EdgeInsets.only(
-            top: MediaQuery.of(context).size.height * 0.2,
+            top: MediaQuery.of(context).size.height * 0.1,
             left: MediaQuery.of(context).size.width * 0.1,
             right: MediaQuery.of(context).size.width * 0.1,
           ),
@@ -34,6 +34,26 @@ class _AuthenticationState extends State<Authentication> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             mainAxisAlignment: MainAxisAlignment.start,
             children: <Widget>[
+              const Row(
+                children: <Widget>[
+                  Text(
+                    'Crypto',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 45.0,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                  Icon(
+                    Icons.wallet,
+                    size: 55.0,
+                    color: Colors.white,
+                  )
+                ],
+              ),
+              const SizedBox(
+                height: 15.0,
+              ),
               TextFormField(
                 style: const TextStyle(
                   color: Colors.white,
